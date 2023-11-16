@@ -1,90 +1,90 @@
 /**
-* Styling for buttons
+* Estilo para botões
 */
 
-/* button style */
+/* Estilo do botão */
 .rpgui-button {
-  /* hide button default stuff */
+  /* ocultar estilos padrão do botão */
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
   overflow: hidden;
   outline: none;
 
-  /* background */
+  /* plano de fundo */
   background: url("../assets/rpg/button.png") no-repeat no-repeat;
   background-clip: padding-box;
   background-origin: padding-box;
   background-position: center;
   background-size: 100% 100%;
 
-  /* font size */
+  /* tamanho da fonte */
   font-size: 1em;
 
-  /* default size and display */
+  /* tamanho e exibição padrão */
   max-width: 100%;
   min-width: 140px;
   height: 60px;
   display: inline-block;
 
-  /* padding */
+  /* preenchimento */
   padding-left: 35px;
   padding-right: 35px;
 }
 
-/* button hover */
+/* Ao passar o mouse sobre o botão */
 .rpgui-button.hover,
 .rpgui-button:hover {
   background-image: url("../assets/rpg/button-hover.png");
 }
 
-/* button clicked */
+/* Ao clicar no botão */
 .rpgui-button.down,
 .rpgui-button:active {
   background-image: url("../assets/rpg/button-down.png");
 }
 
-/* golden button stuff */
+/* Estilos do botão dourado */
 .rpgui-button.golden p {
   display: inline-block;
 }
 
-/* golden button style */
+/* Estilo do botão dourado */
 .rpgui-button.golden {
-  /* hide button default stuff */
+  /* ocultar estilos padrão do botão */
   background-color: Transparent;
   background-repeat: no-repeat;
   border: none;
   overflow: hidden;
   outline: none;
 
-  /* background */
+  /* plano de fundo */
   background: url("../assets/rpg/button-golden.png") no-repeat no-repeat;
   background-clip: padding-box;
   background-origin: padding-box;
   background-position: center;
   background-size: 100% 80%;
 
-  /* default size and display */
+  /* tamanho e exibição padrão */
   max-width: 100%;
   min-width: 140px;
   height: 60px;
   display: inline-block;
 
-  /* padding */
+  /* preenchimento */
   padding-top: 5px;
   padding-left: 35px;
   padding-right: 35px;
   overflow: visible;
 }
 
-/* button hover */
+/* Ao passar o mouse sobre o botão dourado */
 .rpgui-button.golden.hover,
 .rpgui-button.golden:hover {
   background-image: url("../assets/rpg/button-golden-hover.png");
 }
 
-/* button clicked */
+/* Ao clicar no botão dourado */
 .rpgui-button.golden.down,
 .rpgui-button.golden:active {
   background-image: url("../assets/rpg/button-golden-down.png");
